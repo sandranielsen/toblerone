@@ -1,0 +1,163 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/***** Product description section *****/
+
+.product_container {
+    margin: 20px 20px;
+    color: #C72E19;
+}
+
+.product_image {
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.product_title {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 26px;
+}
+
+.product_description {
+    font-family: 'Corbel', sans-serif;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+/***** Ingredients section *****/
+
+.ingredients_container {
+    color: white;
+    background-color: #BE965B;
+    border: #BE965B solid 20px;
+}
+
+.ingredients_title {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+}
+
+.ingredients_description {
+    font-family: 'Corbel', sans-serif;
+    margin: 10px 0;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.ingredients_description1 {
+    font-family: 'Corbel', sans-serif;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.ingredients_link {
+    font-family: 'Corbel', sans-serif;
+    color: white;
+    font-weight: bold;
+    color: #C72E19;
+}
+
+/***** Related products section *****/
+
+.related_container {
+    margin: 20px 20px 60px 20px;
+    color: #C72E19;
+}
+
+.product_image1 {
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.product_name {
+    font-family: 'Century Gothic', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.line_separator {
+    padding-bottom: 40px;
+    border-bottom: #BE965B solid 1px;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1037px) {
+/***** Product description section *****/
+    .product_container {
+        display: flex;
+        margin: 20px 150px 50px 130px;
+        width: 1000px;
+    }
+
+    .product_image {
+        width: 50%;
+        margin: 70px 30px;
+    }
+
+    .text_container {
+        margin: 65px 20px;
+    }
+
+    .product_title {
+        width: 100%;
+        font-size: 30px;
+        margin: 0 0 10px 0;
+    }
+
+    .product_description {
+        font-size: 22px;
+    }
+
+/***** Ingredients section *****/
+
+    .ingredients_title {
+        margin: 0 20px;
+        font-size: 26px;
+    }
+
+    .ingredients_description {
+        margin: 10px 20px;
+        font-size: 22px;
+    }
+
+    .ingredients_description1 {
+        margin: 10px 20px;
+        font-size: 22px;
+    }
+
+    .ingredients_link {
+        margin: 10px 20px;
+        font-size: 22px;
+    }
+
+/***** Related products section *****/
+
+    .related_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 50px 40px 90px;
+    }
+
+    .product_container1 {
+        width: 33%;
+    }
+
+    .product_image1 {
+        width: 90%;
+        margin: 30px 20px;
+    }
+
+    .line_separator {
+        width: 90%;
+        margin: 0 20px;
+    }
+
+}

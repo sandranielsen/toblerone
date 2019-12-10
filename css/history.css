@@ -1,0 +1,70 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/***** Article container *****/
+
+.article_container {
+ margin: 20px;
+}
+
+.article_title {
+    font-family: 'Century Gothic', sans-serif;
+    color: #C72E19;
+    padding: 0 0 10px;
+    font-size: 26px;
+}
+
+.article_paragraph {
+    font-family: 'Corbel', sans-serif;
+    color: #C72E19;
+    font-weight: lighter;
+    font-size: 22px;
+    text-align: justify;
+    padding: 0 0 10px;
+}
+
+.article_image {
+    padding: 0 0 10px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1037px) {
+    .article_image {
+        width: 350px;
+        height: 300px;
+        padding: 20px;
+    }
+
+    .article_container {
+        margin: 20px 160px;
+
+    }
+
+    .article_title {
+        font-size: 26px;
+        padding: 20px 20px 0;
+    }
+
+    .article_paragraph {
+        padding: 10px 20px 30px 20px;
+    }
+
+    .paragraph1 {
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+
+    .paragraph2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}
